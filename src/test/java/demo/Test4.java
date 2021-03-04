@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -16,9 +17,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 
-public class Test4 {
+public class Test4 extends Serveron{
 
-	public static void main(String[] args) throws MalformedURLException {
+	@Test
+	public void demo()throws MalformedURLException {
 		DesiredCapabilities d=new DesiredCapabilities();
 		d.setCapability(MobileCapabilityType.DEVICE_NAME,"grb");
 		d.setCapability(MobileCapabilityType.AUTOMATION_NAME,"appium");

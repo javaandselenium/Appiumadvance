@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57125" started-at="2021-03-03T21:41:48 IST" finished-at="2021-03-03T21:42:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57125" started-at="2021-03-03T21:41:48 IST" finished-at="2021-03-03T21:42:45 IST">
+      <class name="demo.Test4">
+        <test-method status="PASS" signature="startserver()[pri:0, instance:demo.Test4@4d95d2a2]" name="startserver" is-config="true" duration-ms="3108" started-at="2021-03-03T21:41:45 IST" finished-at="2021-03-03T21:41:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startserver -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:demo.Test4@4d95d2a2]" name="demo" duration-ms="57030" started-at="2021-03-03T21:41:48 IST" finished-at="2021-03-03T21:42:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="closeserver()[pri:0, instance:demo.Test4@4d95d2a2]" name="closeserver" is-config="true" duration-ms="239" started-at="2021-03-03T21:42:45 IST" finished-at="2021-03-03T21:42:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeserver -->
+      </class> <!-- demo.Test4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

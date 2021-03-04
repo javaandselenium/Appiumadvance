@@ -30,7 +30,7 @@ public class Test1 extends BaseClass{
 		d.setCapability(MobileCapabilityType.PLATFORM_NAME,"android");
 		d.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,"io.appium.android.apis");
 		d.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,"io.appium.android.apis.ApiDemos");
-		URL url=new URL("http://127.0.0.1:4723/wd/hub");
+		URL url=new URL("http://127.0.0.1:4724/wd/hub");
 
 		AndroidDriver<WebElement> driver=new AndroidDriver<WebElement>(url, d);
 	//	AppiumDriver<WebElement>driver=new AppiumDriver<WebElement>(url,d);
